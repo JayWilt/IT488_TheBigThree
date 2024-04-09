@@ -1,0 +1,10 @@
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\bin\Debug\TheBigThreeSupport.dacpac
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\bin\Debug\TheBigThreeSupport.dll
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\bin\Debug\TheBigThreeSupport.pdb
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\TheBigThreeSupport.sqlproj.AssemblyReference.cache
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\Model.xml
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\refactor.xml
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\postdeploy.sql
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\predeploy.sql
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\TheBigThreeSupport.dll
+C:\Users\veteran\OneDrive\Documents\IT481\IT488_TheBigThree_ServiceTicket\TheBigThreeSupport\obj\Debug\TheBigThreeSupport.pdb
