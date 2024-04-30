@@ -87,8 +87,8 @@ namespace IT488_TheBigThreeServiceTicket
 
                     MailMessage mm = new MailMessage();
                     SmtpClient sc = new SmtpClient("smtp-mail.outlook.com");
-                    mm.From = new MailAddress("crazy.eyes10@live.com");
-                    mm.To.Add("jay.wilt87@gmail.com");
+                    mm.From = new MailAddress("bigthreeserviceticket@outlook.com");
+                    mm.To.Add("bigthreeserviceticketqccount@outlook.com");
                     mm.Subject = "Test-account";
                     var sb = new StringBuilder();
                     sb.Append("Name: " + textBox1.Text.Substring(0, 1) + "  " + textBox2.Text);
@@ -103,7 +103,7 @@ namespace IT488_TheBigThreeServiceTicket
                     sb.Append("Description: " + richTextBox1.Text);
                     mm.Body = sb.ToString();
                     sc.Port = 587;
-                    sc.Credentials = new System.Net.NetworkCredential("crazy.eyes10@live.com", "Ax!svsall1es");
+                    sc.Credentials = new System.Net.NetworkCredential("bigthreeserviceticket@outlook.com", "P@ssw0rd1234567");
                     sc.EnableSsl = true;
                     sc.Send(mm);
                     MessageBox.Show("Ticket Submitted. Your ticket number is");
@@ -120,8 +120,8 @@ namespace IT488_TheBigThreeServiceTicket
 
                     MailMessage mm = new MailMessage();
                     SmtpClient sc = new SmtpClient("smtp-mail.outlook.com");
-                    mm.From = new MailAddress("crazy.eyes10@live.com");
-                    mm.To.Add("crazy.eyes10@live.com");
+                    mm.From = new MailAddress("bigthreeserviceticket@outlook.com");
+                    mm.To.Add("bigthreeservicehardware@outlook.com");
                     mm.Subject = "Test-hardware";
                     var sb = new StringBuilder();
                     sb.Append("Name: " + textBox1.Text.Substring(0, 1) + "  " + textBox2.Text);
@@ -136,7 +136,7 @@ namespace IT488_TheBigThreeServiceTicket
                     sb.Append("Description: " + richTextBox1.Text);
                     mm.Body = sb.ToString();
                     sc.Port = 587;
-                    sc.Credentials = new System.Net.NetworkCredential("crazy.eyes10@live.com", "Ax!svsall1es");
+                    sc.Credentials = new System.Net.NetworkCredential("bigthreeserviceticket@outlook.com", "P@ssw0rd1234567");
                     sc.EnableSsl = true;
                     sc.Send(mm);
                     MessageBox.Show("Ticket Submitted. Your ticket number is");
@@ -153,8 +153,8 @@ namespace IT488_TheBigThreeServiceTicket
 
                     MailMessage mm = new MailMessage();
                     SmtpClient sc = new SmtpClient("smtp-mail.outlook.com");
-                    mm.From = new MailAddress("crazy.eyes10@live.com");
-                    mm.To.Add("timetogohome4@yahoo.com");
+                    mm.From = new MailAddress("bigthreeserviceticket@outlook.com");
+                    mm.To.Add("bigthreeservicesoftware@outlook.com");
                     mm.Subject = "Test-software";
                     var sb = new StringBuilder();
                     sb.Append("Name: " + textBox1.Text.Substring(0, 1) + "  " + textBox2.Text);
@@ -169,7 +169,7 @@ namespace IT488_TheBigThreeServiceTicket
                     sb.Append("Description: " + richTextBox1.Text);
                     mm.Body = sb.ToString();
                     sc.Port = 587;
-                    sc.Credentials = new System.Net.NetworkCredential("crazy.eyes10@live.com", "Ax!svsall1es");
+                    sc.Credentials = new System.Net.NetworkCredential("bigthreeserviceticket@outlook.com", "P@ssw0rd1234567");
                     sc.EnableSsl = true;
                     sc.Send(mm);
                     MessageBox.Show("Ticket Submitted. Your ticket number is");
@@ -186,8 +186,8 @@ namespace IT488_TheBigThreeServiceTicket
 
                     MailMessage mm = new MailMessage();
                     SmtpClient sc = new SmtpClient("smtp-mail.outlook.com");
-                    mm.From = new MailAddress("crazy.eyes10@live.com");
-                    mm.To.Add("jaywilt@student.purdueglobal.edu");
+                    mm.From = new MailAddress("bigthreeserviceticket@outlook.com");
+                    mm.To.Add("bigthreeservicestore@outlook.com");
                     mm.Subject = "Test-store";
                     var sb = new StringBuilder();
                     sb.Append("Name: " + textBox1.Text.Substring(0, 1) + "  " + textBox2.Text);
@@ -202,7 +202,7 @@ namespace IT488_TheBigThreeServiceTicket
                     sb.Append("Description: " + richTextBox1.Text);
                     mm.Body = sb.ToString();
                     sc.Port = 587;
-                    sc.Credentials = new System.Net.NetworkCredential("crazy.eyes10@live.com", "Ax!svsall1es");
+                    sc.Credentials = new System.Net.NetworkCredential("bigthreeserviceticket@outlook.com", "P@ssw0rd1234567");
                     sc.EnableSsl = true;
                     sc.Send(mm);
                     MessageBox.Show("Ticket Submitted. Your ticket number is");
