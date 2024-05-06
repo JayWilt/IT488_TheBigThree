@@ -8,5 +8,8 @@ namespace IT488_TheBigThreeServiceTicket
 {
     internal class DB
     {
+        public DB(string v)
+        {
+        }
     }
 }

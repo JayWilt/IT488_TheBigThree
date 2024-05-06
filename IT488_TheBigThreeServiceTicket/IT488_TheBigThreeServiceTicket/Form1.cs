@@ -52,14 +52,14 @@ namespace IT488_TheBigThreeServiceTicket
             }
             con.Open();
             var sql = "insert into Service_Ticket ( [Customer_First_Name], [Customer_Last_Name], [Ticket_Date], [Customer_Email], [Customer_Phone], [Ticket_Description], [Service_Tech_ID]) VALUES(@FirstName, @LastName, @Date, @Email, @Phone, @Description, @ServiceTechID)";
-            using(var cmd = new SqlCommand(sql, con))
+            using (var cmd = new SqlCommand(sql, con))
             {
-                cmd.Parameters.Add("@FirstName", SqlDbType.VarChar).Value= textBox1.Text;
-                cmd.Parameters.Add("@LastName", SqlDbType.VarChar).Value= textBox2.Text;
-                cmd.Parameters.Add("@Date", SqlDbType.Date).Value= DateTime.Now;
-                cmd.Parameters.Add("@Email", SqlDbType.VarChar).Value= textBox3.Text;
-                cmd.Parameters.Add("@Phone", SqlDbType.Char).Value= textBox4.Text;
-                cmd.Parameters.Add("@Description", SqlDbType.VarChar).Value= richTextBox1.Text;
+                cmd.Parameters.Add("@FirstName", SqlDbType.VarChar).Value = textBox1.Text;
+                cmd.Parameters.Add("@LastName", SqlDbType.VarChar).Value = textBox2.Text;
+                cmd.Parameters.Add("@Date", SqlDbType.Date).Value = DateTime.Now;
+                cmd.Parameters.Add("@Email", SqlDbType.VarChar).Value = textBox3.Text;
+                cmd.Parameters.Add("@Phone", SqlDbType.Char).Value = textBox4.Text;
+                cmd.Parameters.Add("@Description", SqlDbType.VarChar).Value = richTextBox1.Text;
 
                 if (comboBox1.Text == "Account")
                 {
@@ -219,6 +219,12 @@ namespace IT488_TheBigThreeServiceTicket
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            this.Hide();
+            form2.Show();
+        }
     }
 
 }

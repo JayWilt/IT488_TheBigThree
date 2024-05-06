@@ -42,6 +42,7 @@
             label6 = new Label();
             comboBox1 = new ComboBox();
             label7 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -173,11 +174,23 @@
             label7.TabIndex = 14;
             label7.Text = "The Big Three Support";
             // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 5F);
+            button2.Location = new Point(684, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 15;
+            button2.Text = "Employee Sign In";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 505);
+            Controls.Add(button2);
             Controls.Add(label7);
             Controls.Add(comboBox1);
             Controls.Add(label6);
@@ -214,5 +227,6 @@
         private Label label6;
         private ComboBox comboBox1;
         private Label label7;
+        private Button button2;
     }
 }
